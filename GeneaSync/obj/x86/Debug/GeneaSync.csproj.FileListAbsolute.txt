@@ -1,0 +1,32 @@
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\bin\Debug\GeneaSync.exe
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\bin\Debug\GeneaSync.pdb
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\MainWindow.baml
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\MainWindow.g.cs
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\App.g.cs
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GeneaSync_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GeneaSync.g.resources
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GeneaSync.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GeneaSync.exe
+C:\Dokumente und Einstellungen\Wolfi\Lokale Einstellungen\Anwendungsdaten\Temporary Projects\GeneaSync\obj\x86\Debug\GeneaSync.pdb
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\MainWindow.baml
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\MainWindow.g.cs
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\App.g.cs
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\ProgressPopup.baml
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\ProgressPopup.g.cs
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\comparisonResults.baml
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\comparisonResults.g.cs
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\Report.baml
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\Report.g.cs
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\bin\Debug\GedcomViewCompare.exe
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\bin\Debug\GedcomViewCompare.pdb
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GedcomViewCompare_MarkupCompile.cache
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GedcomViewCompare.g.resources
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GedcomViewCompare.Properties.Resources.resources
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GedcomViewCompare.exe
+C:\Dokumente und Einstellungen\Wolfi\eigene dateien\visual studio 2010\Projects\GeneaSync\GeneaSync\obj\x86\Debug\GedcomViewCompare.pdb

@@ -1,0 +1,42 @@
+﻿<Window x:Class="GedcomViewCompare.WMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GEDCOM View and Compare" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="390" Width="700" Loaded="Window_Loaded" Activated="Window_Activated" WindowStyle="ThreeDBorderWindow" Background="#FFE0E0EC" Foreground="Black" Icon="/GedcomViewCompare;component/Images/GVC_Logo_100x100.png">
+    <Grid Background="#00000000">
+        <Grid.RowDefinitions>
+            <RowDefinition Name="rowMenu" Height="23"/>
+            <RowDefinition Name="rowInformation" Height="20" />
+            <RowDefinition Name="rowData" Height="270*" />
+            <RowDefinition Name="rowDecorator" Height="10"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Name="columnDecorator" Width="10" />
+            <ColumnDefinition Name="GridColumn1" />
+            <ColumnDefinition Name="GridColumn2"/>
+            <ColumnDefinition Name="GridColumn3" Width="80"/>
+            <ColumnDefinition Name="columnDecorator2" Width="10" />
+        </Grid.ColumnDefinitions>
+        <Menu Grid.ColumnSpan="2" Height="20" HorizontalAlignment="Left" Name="menuFile" VerticalAlignment="Top" Width="Auto" Background="#FFE0E0EC">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open File(s)" IsCheckable="False" Click="openFiles_Click" />
+                <MenuItem Header="_Save File(s) As..." IsCheckable="False" Click="saveFiles_Click" />
+            </MenuItem>
+            <Separator ></Separator>
+            <MenuItem Header="_Help" IsEnabled="True">
+                <MenuItem Header="_About" IsCheckable="False" IsEnabled="True" Click="MenuItem_Click" />
+            </MenuItem>
+        </Menu>
+        <RichTextBox Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" Name="textBoxGDI1" VerticalAlignment="Stretch" Margin="1" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
+        <RichTextBox Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" Name="textBoxGDI2" VerticalAlignment="Stretch" Margin="1" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
+        <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="headerGDI1" />
+        <TextBlock Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="headerGDI2" />
+        <!-- <TextBlock Name="labelSearchFor" Text="Search Text:" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Width="64" /> -->
+        <!-- <TextBox Name="textBoxSearchFor" Grid.Column="2" Grid.Row="0" Height="20" HorizontalAlignment="Left" Margin="66,0,0,0" VerticalAlignment="Center" Width="180" /> -->
+        <!-- <Button Grid.Column="3" Content="Search" Height="23" HorizontalAlignment="Left" Name="buttonSearch" VerticalAlignment="Bottom" Width="75" Margin="0,0,0,18" Grid.RowSpan="2" ToolTip="Search for text in both files" Click="buttonSearch_Click" /> -->
+        <Button Content="Surname Sort" Grid.Row="2" Grid.Column="3" Height="23" HorizontalAlignment="Left" Margin="0,0,0,0" Name="buttonSort" VerticalAlignment="Top" Width="75" ToolTip="Sort entries by surname of individual persons" Click="buttonSort_Click" />
+        <Button Content="Compare" Grid.Row="2" Grid.Column="3" Height="23" HorizontalAlignment="Left" Margin="0,25,0,0" Name="buttonHighlight" VerticalAlignment="Top" Width="75" ToolTip="Highlight persons that are available only in one file" Click="buttonHighlight_Click" />
+        <Button Content="Difference" Grid.Row="2" Grid.Column="3" Height="23" HorizontalAlignment="Left" Margin="0,50,0,0" Name="buttonDiff" VerticalAlignment="Top" Width="75" ToolTip="Create a new document with perons available in only one file" Click="buttonDiff_Click" IsEnabled="False" />
+        <Button Content="Intersection" Grid.Row="2" Grid.Column="3" Height="23" HorizontalAlignment="Left" Margin="0,75,0,0" Name="buttonIntersection" VerticalAlignment="Top" Width="75" ToolTip="Join the two files and create a new document, duplicate entries will be converted to one" Click="buttonIntersection_Click" IsEnabled="False" />
+        <Button Content="Union" Grid.Row="2" Grid.Column="3" Height="23" HorizontalAlignment="Left" Margin="0,100,0,0" Name="buttonUnion" VerticalAlignment="Top" Width="75" ToolTip="Join the two files and create a new document, with all persons available in both files" Click="buttonUnion_Click" IsEnabled="False" />
+    </Grid>
+</Window>

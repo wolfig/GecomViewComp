@@ -1,0 +1,32 @@
+﻿<Window x:Class="GedcomViewCompare.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About" Height="160" Width="300" Loaded="Window_Loaded" Background="#FFE0E0EC">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Name="columnSpacer" Width="10" />
+            <ColumnDefinition Name="columnLogo" Width="100" />
+            <ColumnDefinition Name="columnText" Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Name="rowSpacerTop" Height="10" />
+            <RowDefinition Name="rowContent" Height="*" />
+            <RowDefinition Name="rowSpacerBottom" Height="10" />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="1" Grid.Row="1" Height="100" HorizontalAlignment="Left" Margin="0,0,0,0" Name="rectangleLogo" Stroke="Black" VerticalAlignment="Top" Width="100">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/GedcomViewCompare;component/Images/GVC_Logo_100x100.png" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Grid.Column="2" Grid.Row="1" Content="GEDCOM View and Compare" Height="30" HorizontalAlignment="Left" Margin="0,0,0,0" Name="labelProgramTitle" VerticalAlignment="Top" FontSize="12" FontStyle="Normal" />
+        <Label Grid.Column="2" Grid.Row="1" Content="Copyright © 2011 - 2012" Height="30" HorizontalAlignment="Center" Margin="0,40,0,0" Name="labelCopyright" VerticalAlignment="Top" FontSize="8" />
+        <Label Grid.Column="2" Grid.Row="1" Content="Wolfgang Geithner" Height="30" HorizontalAlignment="Center" Margin="0,55,0,0" Name="labelWolfi" VerticalAlignment="Top" FontSize="8" />
+        <Label Grid.Column="2" Grid.Row="1" Content="Version 1.0.1 - July 2012" Height="30" HorizontalAlignment="Left" Margin="0,20,0,0" Name="labelVersion" VerticalAlignment="Top" FontSize="8" />
+        <Label Grid.Column="2" Grid.Row="1" Content="Homepage:" Height="30" HorizontalAlignment="Left" Margin="0,80,0,0" Name="labelHomepage" VerticalAlignment="Top" FontSize="8" />
+        <Label Grid.Column="2" Grid.Row="1" Height="30" HorizontalAlignment="Left" Margin="45,80,0,0" Name="labelURI" VerticalAlignment="Top" FontSize="8">
+            <Hyperlink Click="Hyperlink_Click">
+                <TextBlock Text="GEDCOM View and Compare" />
+            </Hyperlink>
+        </Label>
+    </Grid>
+</Window>

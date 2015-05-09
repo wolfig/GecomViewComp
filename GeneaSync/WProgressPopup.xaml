@@ -1,0 +1,9 @@
+﻿<Window x:Class="GedcomViewCompare.ProgressPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Processing Progress" Height="149" Width="401">
+    <Grid>
+        <ProgressBar Height="30" HorizontalAlignment="Left" Margin="12,12,0,0" Name="theProgressBar" VerticalAlignment="Top" Width="352" />
+        <Label Content="Label" Height="22" HorizontalAlignment="Left" Margin="12,68,0,0" Name="progressText" VerticalAlignment="Top" FontSize="12" Width="352" />
+    </Grid>
+</Window>
